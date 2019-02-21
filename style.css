@@ -1,0 +1,160 @@
+body {
+	background-color: #EEE;
+}
+
+
+
+
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+
+
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.title {
+	font-size: 30px;
+	color: green;
+}
+
+.button__log {
+	font-size: 18px;
+	padding: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+
+
+.comment__list {
+	margin: 5px;
+	padding: 10px;
+	border: 2px solid;
+}
+
+.comment__mainform__user > input {
+	width:50%;
+}
+
+.comment__mainform__textarea > textarea {
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.comment__mainform__button {
+	padding: 10px 40px;
+	background: #3597dc;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
+.board__comments {
+	margin-top: 20px;
+}
+
+.comment {
+	border: 2px solid rgba(0,0,0,0.5);
+	margin: 5px;
+	padding: 20px;
+}
+
+.comment__content {
+
+}
+
+.comment__user {
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.board__subcomments {
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.comment__user__sub {
+	padding: 2px;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.board__subcomment__content {
+	margin-bottom: 20px;
+}
+
+.comment__mainform__subuser > input {
+	width:50%;
+}
+
+
+
+
+.comment__subform__user > input {
+	width:50%;
+}
+
+.comment__subform__textarea > textarea {
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.comment__subform__button {
+	padding: 10px 30px;
+	background: #3597dc;
+	color: white;
+	cursor: pointer;
+}
+
+.pagesnum {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid;
+}
+
+.every_num {
+	display: flex;
+	justify-content: center;
+}
+
+.totalpages {
+	display: flex;
+	justify-content: center;
+}
+
+ul li {
+	list-style-type:none;
+}
+
+.comment_edit_btn {
+	padding: 5px 10px;
+	background: #FFD700;
+	cursor: pointer;
+}
+
+.comment_delete_btn {
+	padding: 5px 10px;
+	background: red;
+	cursor: pointer;
+}
+
+.comment__edit {
+	display: flex;
+	position: relative;
+	float: right;
+	bottom: 70px;
+}
